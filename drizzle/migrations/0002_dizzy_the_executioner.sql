@@ -1,0 +1,1 @@
+ALTER TABLE "userPreferences" ADD CONSTRAINT "userPreferences_emailUpdates_unique" UNIQUE("emailUpdates");

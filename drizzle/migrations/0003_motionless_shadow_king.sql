@@ -1,0 +1,2 @@
+ALTER TABLE "userPreferences" DROP CONSTRAINT "userPreferences_emailUpdates_unique";--> statement-breakpoint
+ALTER TABLE "userPreferences" ADD CONSTRAINT "userPreferences_userId_unique" UNIQUE("userId");
